@@ -1,0 +1,36 @@
+body {
+  background-color: fff;
+}
+
+h1 {
+  color: #fff;
+  background-color: rgba(60,60,255,0.5);
+}
+
+#wrapper {
+  background-color: darkorchid;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.cuadro {
+  width: 68px;
+  height: 68px;
+  color: white;
+  margin: 10px;
+  border: 6px solid white;
+  padding: 10px;
+}
+
+#primero {
+  background-color: darkred;
+}
+
+#segundo {
+  background-color: navy;
+}
+
+#tercero {
+  background-color: darkgreen;
+}
