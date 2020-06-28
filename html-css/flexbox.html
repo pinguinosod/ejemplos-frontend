@@ -1,0 +1,35 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Ejemplos Flexbox</title>
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="flexbox.css">
+</head>
+
+<body>
+  <h1 id="title">Ejemplos de uso de flexbox</h1>
+  
+  <pre>#primer_wrapper {
+  flex-direction: row; /* default */
+}</pre>
+  <div id="primer_wrapper" class="wrapper">
+    <div id="primero" class="cuadro">Este es el primer cuadro</div>
+    <div id="segundo" class="cuadro">Este es el segundo cuadro</div>
+    <div id="tercero" class="cuadro">Yo soy verde</div>
+  </div>
+
+  <hr />
+  
+  <pre>#segundo_wrapper {
+  flex-direction: column;
+  align-items: center;
+}</pre>
+  <div id="segundo_wrapper" class="wrapper">
+    <div id="primero" class="cuadro">Este es el primer cuadro</div>
+    <div id="segundo" class="cuadro">Este es el segundo cuadro</div>
+    <div id="tercero" class="cuadro">Yo soy verde</div>
+  </div>
+</body>
+
+</html>

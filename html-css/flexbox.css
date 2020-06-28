@@ -1,0 +1,38 @@
+.cuadro {
+  color: white;
+  margin: 8px;
+  border: 4px solid white;
+  padding: 8px;
+}
+
+.wrapper {
+  background-color: darkmagenta;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+#primer_wrapper {
+  flex-direction: row; /* default */
+}
+
+#segundo_wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper > div {
+  width: 76px;
+  height: 76px;
+}
+
+.wrapper > div:nth-of-type(1) {
+  background-color: darkred;
+}
+
+.wrapper > div:nth-of-type(2) {
+  background-color: navy;
+}
+
+.wrapper > div:nth-of-type(3) {
+  background-color: darkgreen;
+}
