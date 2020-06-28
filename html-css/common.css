@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Code+Pro&display=swap');
+
+body {
+  background-color: #fff;
+  padding: 8px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: #fff;
+  background-color: rgba(60,60,255,0.5);
+  padding: 8px;
+}
+
+pre {
+  color: black;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
+  background-color: #eee;
+  padding: 8px;
+}
+
+hr {
+  margin: 32px 0;
+  border: 2px solid #ccc;
+  border-left: 0;
+  border-right: 0;
+}
