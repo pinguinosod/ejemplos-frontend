@@ -1,0 +1,49 @@
+#wrapper {
+  background-color: darkmagenta;
+}
+
+.cuadro {
+  width: 76px;
+  height: 76px;
+  color: white;
+  margin: 8px;
+  border: 4px solid white;
+  padding: 8px;
+}
+
+#primero {
+  background-color: darkred;
+  float: left;
+}
+
+#segundo {
+  background-color: navy;
+  float: right;
+}
+
+#tercero {
+  background-color: darkgreen;
+  float: right;
+}
+
+#clear {
+  clear: both;
+}
+
+#segundo_wrapper {
+  background-color: rgb(211, 211, 211);
+  padding: 16px;
+  border-top: 2px solid #efefef;
+  border-left: 2px solid #efefef;
+  border-bottom: 2px solid gray;
+  border-right: 2px solid gray;
+}
+
+#segundo_wrapper > h2 {
+  margin: 0;
+}
+
+#segundo_wrapper > button {
+  float: right;
+  cursor: pointer;
+}
